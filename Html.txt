@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+    </header>
+    <main>
+         <section id="Forms">
+
+             <h1>Employee İnterests Survey Form</h1>
+            
+               <span>Enter your name:</span> <input Id="Text"> <br>
+                <br>
+               <span>Enter your department:</span> <input Id="Text"><br>
+                <br>
+                <span>Tell us a little about yourself:  </span><textarea name="" rows="5" cols="30"></textarea><br>
+                  <br>
+                <div> id="yesno">
+                <label for ="yes_no_radio">Do you exercise at home?</label>
+                <input type="radio" name="yes_no"checked>Yes</input>
+                <input type = "radio"name ="yes_no"checked>No</input>
+                <div/> <br>
+                <br>
+                 <span>How do you like to read about your favorite topies?</span><br>
+                  <br>
+                 <input type="checkbox" id="books">  
+                 <label for="books">Books</label>
+
+                <input type="checkbox" id="Online resources">
+                <label for="online rescouces">Online Resources</label>
+
+                <input type="checkbox" id="Phone apps">
+                <label for="phoneapps">Phone Apps</label>
+
+                <input type="checkbox" id="Magazine">
+                <label for="Magazine">Magazine</label><br>
+                <br>
+                <span>What genre of movies do you like?</span>
+               <button><label for="comedy">comedy</label>
+                <select id="comedy"></select> </button><br>
+                <br>
+                <input value="Submit Form" type="Submit">
+         </section>
+    </main>
+    <footer>
+    </footer>   
+</body>
+</html>
